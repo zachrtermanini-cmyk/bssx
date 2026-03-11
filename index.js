@@ -26643,7 +26643,7 @@ function BeeSwarmSimulator(DATA){
                 out.removeAirFrictionUntilGrounded=false
                 
                 if(user.keys[' ']||jumpingButton){
-                    out.grounded=true
+                    out.grounded=false
                     out.body.velocity.y=out.jumpPower
                 }
                 
@@ -34760,6 +34760,7 @@ function BeeSwarmSimulator(DATA){
     
 
 }
+
 
 
 
